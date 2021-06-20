@@ -4,7 +4,7 @@ Projeto base em Vue 2.x usando Typescript com Class style sintax (usando vue-pro
 Usado para servir de base para projetos Vue usando Typescript
 
 Dependencias utilizadas no projeto:
-- Axios (Instancia de Api com interceptors ja implementado)
+- Axios (Instancia de Api com autenticacao login via SessionStorage e api interceptors definidos)
 - Vuetify (Biblioteca Material Design-based para o Vue)
 - Typescript
 - Toasted (Biblioteca para emitir mensagens na tela)
