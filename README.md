@@ -1,4 +1,7 @@
-# testetypescript
+# Base project Vue 2.x + Typescript
+
+Projeto base em Vue 2.x usando Typescript com Class style sintax (usando vue-property-decorator e vuex-module-decorator)
+Usado para servir de base para projetos Vue usando Typescript
 
 ## Project setup
 ```
