@@ -1,16 +1,10 @@
 <template>
-  <hello-world />
+  <container>
+    <div class="home d-flex justify-center">
+      <h1>Home page</h1>
+    </div>
+      <v-divider />
+  </container>
 </template>
 
-<script lang="ts">
-import Vue from 'vue';
-import HelloWorld from '../components/HelloWorld.vue';
-
-export default Vue.extend({
-  name: 'Home',
-
-  components: {
-    HelloWorld,
-  },
-});
-</script>
+<script lang="ts" src="./Home.component" />
