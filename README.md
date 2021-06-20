@@ -1,15 +1,18 @@
 # Base project Vue 2.x + Typescript
 
-Projeto base em Vue 2.x usando Typescript com Class style sintax (usando vue-property-decorator e vuex-module-decorator)
-Usado para servir de base para projetos Vue usando Typescript
+Base project using Vue 2.x and Typescript with Class style sintax (using vue-property-decorator and vuex-module-decorator libraries).
+Created to be used as a base project to any Vue project using Typescript
 
-Dependencias utilizadas no projeto:
-- Axios (Instancia de Api com autenticacao login via SessionStorage e api interceptors definidos)
-- Vuetify (Biblioteca Material Design-based para o Vue)
+Base Project Dependencies:
+- Axios (Api instance, Request interceptors, Login service)
+- Vuetify (Material Design based library for Vuejs)
 - Typescript
-- Toasted (Biblioteca para emitir mensagens na tela)
-- Router (Vue Router)
-- Vuex (Biblioteca de estados para o Vue)
+- vue-toasted (Toasted library used)
+- Router (Vue Router library)
+- Vuex (State management library for Vue)
+- Yup (For form validation)
+
+Vue ui can be used to manipulate the project dependencies and run it without the command-line
 
 ## Project setup
 ```
