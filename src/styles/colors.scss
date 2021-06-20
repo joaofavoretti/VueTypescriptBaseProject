@@ -1,0 +1,25 @@
+$primary-color: #1976d2;
+$text-dark: #3b495b;
+$background: #f3f3f3;
+$lighten: 5;
+$darken: 25;
+
+$colors: (
+  primary: (
+    base: $primary-color,
+    light: lighten($primary-color, $lighten),
+    dark: darken($primary-color, $darken),
+  ),
+  text: (
+    light: white,
+    dark: $text-dark,
+  ),
+  background: (
+    base: $background,
+  ),
+);
+
+@function color-theme($base, $shade: base) {
+  $color: map-get(map-get($colors, $base), $shade);
+  @return $color;
+}

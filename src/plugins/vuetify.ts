@@ -26,4 +26,7 @@ export default new Vuetify({
     locales: { pt },
     current: 'pt',
   },
+  icons: {
+    iconfont: 'mdi',
+  },
 });
