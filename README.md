@@ -34,5 +34,8 @@ npm run build
 npm run lint
 ```
 
+### Vue class-style component sintax
+https://class-component.vuejs.org/
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
